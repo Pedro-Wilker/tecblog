@@ -22,13 +22,14 @@
   text-decoration: none;
 }
 .area-menu a:link,
-a:visited {
+.area-menu a:visited {
   color: #fff;
   padding: 12px 12px;
 }
 .area-menu a:hover {
   color: #f7b600;
   background: #fff;
+  text-decoration: underline;
 }
 
 /* Formatação da area de menu */
@@ -40,12 +41,10 @@ a:visited {
 }
 /* postagens & menu-lateral */
 .postagens {
-  background: orange;
   width: 660px;
   float: left;
 }
 .menu-lateral {
-  background: orange;
   width: 240px;
   float: right;
 }
@@ -63,6 +62,16 @@ a:visited {
   margin-bottom: 20px;
   background: white;
 }
+.post h2 {
+  color: #f7b600;
+}
+.data-postagens {
+  font-size: 0.8em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
 .post p {
   padding: 5px;
   margin: 12px;
@@ -71,16 +80,47 @@ a:visited {
 .post img {
   width: 620px;
 }
+.post a:link,
+.post a:visited {
+  color: #f7b600;
+  padding: 12px 12px;
+}
 .post a {
   text-decoration: none;
   padding: 10px;
 }
-.post a:link,
-a:visited {
-  color: rgb(228, 11, 11);
+.post a:hover {
+  color: #352700;
+  background: rgb(206, 79, 79);
+  text-decoration: underline;
+}
+/* Area lateral */
+.area-lateral {
+  background: white;
+  padding: 10px;
+  margin: 10px;
+}
+.area-lateral h3 {
+  color: #565656;
+  background: #ccc;
+  padding: 5px;
+}
+.postagem-lateral {
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+.categorias a {
+  text-decoration: none;
+  padding: 2px;
+  margin: 10px;
+}
+
+.categorias a:link,
+.categorias a:visited {
+  color: #f7b600;
   padding: 12px 12px;
 }
-.post a:hover {
-  color: #f7b600;
-  background: rgb(168, 164, 164);
+.categorias a:hover {
+  text-decoration: underline;
 }
