@@ -1,0 +1,30 @@
+#cabecalho {
+  background-color: #f7b600;
+  padding: 15px;
+  text-align: center;
+}
+.area-logo {
+  padding: 10px;
+}
+.area-logo h1 {
+  color: #4e4e4e;
+  font-size: 2.5em;
+}
+.branco {
+  color: white;
+}
+.area-menu {
+  padding: 10px;
+}
+.area-menu a {
+  text-decoration: none;
+}
+.area-menu a:link,
+a:visited {
+  color: #fff;
+  padding: 12px 12px;
+}
+.area-menu a:hover {
+  color: #f7b600;
+  background: #fff;
+}
