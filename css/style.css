@@ -1,7 +1,9 @@
+/* Formatação do cabeçalho */
 #cabecalho {
   background-color: #f7b600;
   padding: 15px;
   text-align: center;
+  border: 1px solid red;
 }
 .area-logo {
   padding: 10px;
@@ -27,4 +29,58 @@ a:visited {
 .area-menu a:hover {
   color: #f7b600;
   background: #fff;
+}
+
+/* Formatação da area de menu */
+
+.area-principal {
+  width: 920px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* postagens & menu-lateral */
+.postagens {
+  background: orange;
+  width: 660px;
+  float: left;
+}
+.menu-lateral {
+  background: orange;
+  width: 240px;
+  float: right;
+}
+/* Rodape */
+.rodape {
+  clear: both;
+  background: #ccc;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Postagens */
+.post {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+.post p {
+  padding: 5px;
+  margin: 12px;
+  font-size: 1.2em;
+}
+.post img {
+  width: 620px;
+}
+.post a {
+  text-decoration: none;
+  padding: 10px;
+}
+.post a:link,
+a:visited {
+  color: rgb(228, 11, 11);
+  padding: 12px 12px;
+}
+.post a:hover {
+  color: #f7b600;
+  background: rgb(168, 164, 164);
 }
